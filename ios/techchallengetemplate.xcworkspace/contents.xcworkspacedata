@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:<<[(ds "config").package_name]>>.xcodeproj">
+      location = "group:techchallengeexercisedtemplate.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

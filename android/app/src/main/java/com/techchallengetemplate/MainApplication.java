@@ -1,4 +1,4 @@
-package com.<<[(ds "config").package_name]>>;
+package com.techchallengeexercisedtemplate;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

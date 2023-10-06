@@ -25,7 +25,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target '<<[(ds "config").package_name]>>' do
+target 'techchallengeexercisedtemplate' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -45,7 +45,7 @@ target '<<[(ds "config").package_name]>>' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target '<<[(ds "config").package_name]>>Tests' do
+  target 'techchallengeexercisedtemplateTests' do
     inherit! :complete
     # Pods for testing
   end

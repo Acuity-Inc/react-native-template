@@ -1,4 +1,4 @@
-package com.<<[(ds "config").package_name]>>;
+package com.techchallengeexercisedtemplate;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "<<[(ds "config").package_name]>>";
+    return "techchallengeexercisedtemplate";
   }
 
   /**

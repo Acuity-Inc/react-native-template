@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: Acuity-Inc/<<[(ds "config").project_name]>>-template
+          repository: Acuity-Inc/techchallenge-template-react-native-test-template
           ref: main
           path: template
           token: ${{ secrets.GH_PAT }}

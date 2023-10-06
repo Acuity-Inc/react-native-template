@@ -1,4 +1,4 @@
 {
-  "name": "<<[(ds "config").package_name]>>",
-  "displayName": "<<[(ds "config").package_name]>>"
+  "name": "techchallengeexercisedtemplate",
+  "displayName": "techchallengeexercisedtemplate"
 }
